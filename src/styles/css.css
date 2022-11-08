@@ -1,0 +1,145 @@
+.sidenav {
+    position: fixed;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+}
+
+.body {
+    background: rgb(23, 22, 22);
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 200px;
+    color: black;
+    width: 845px;
+    height: auto;
+    top: 0px;
+    margin-top: 0px;
+}
+.logo{
+    width: 60px;
+    height: 10%;
+}
+.head-parent {
+    background-color: rgb(55, 54, 54);
+    color: white;
+}
+
+.head-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-child h3 {
+    margin-right: 15px;
+}
+.head-child h3:hover{
+    color: rgb(134, 190, 82);
+}
+.head-child button{
+    margin: 0;
+    padding: 10px;
+    background-color: #9a9a52;
+    color: #f1f0ed;
+    font-size: 18px;
+    margin: 1px solid grey;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.sncnct-lists h1{
+    color: rgb(211, 158, 45);
+    font-weight: 400;
+}
+.sncnct-lists{
+   font-weight: 400;
+   color: rgb(252, 253, 252);
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 15px;
+}
+.card-parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.card1 img{
+    max-width: 70%;
+    margin: auto;
+    max-height: 50%;
+    width: 140px;
+}
+.card1{
+    background-color:rgb(51, 48, 48);
+    padding: 10px;
+    margin: auto;
+    margin: 15px;
+    width: 220px;
+    border-radius: 25px;
+    box-shadow: rgba(182, 182, 192, 0.25) 0px 30px 60px -12px inset, rgba(106, 104, 104, 0.3) 0px 18px 36px -18px inset;
+}
+    
+.card1 h2{
+  margin: 0px;
+  font-weight: 400;
+  color: #a299a4;
+}
+.card1 p{
+    margin: 0px;
+    color: rgb(154, 147, 147);
+    font-weight: 100px;
+}
+
+.sidenav-parent {
+    margin-left: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 160px;
+    height: 72px;
+    background-color: #3b3b3a;
+    border-radius: 80px;
+    padding: 0px 10px;
+    will-change: transform;
+    transition: all .2s ease-in-out;
+    
+}
+
+.search{
+    height: 20px;
+    margin-top: 18px;
+}
+input{
+  color:#f1f0ed;
+  background: #a299a4;
+  outline: none;
+  padding: 5px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cart{
+width: 15px;
+background: #3b3b3a;
+position: absolute;
+right: 25px;
+}
+.cart1{
+    width: 30px;
+    position: relative;
+}
